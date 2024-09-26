@@ -103,6 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+
+# own ignores
 # backup files
 userdata
 
@@ -110,7 +112,15 @@ userdata
 temp/
 
 # linux things
-.swp
+*.swp
+*.save
 
 #encryption things
 cryptfuncs.py
+
+# for testing new functions
+test.py
+
+# intellij things
+.idea
+python_telegram_do2bot.iml
